@@ -1,6 +1,6 @@
 {
   "name": "template-nodejs-14",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "## Docker useful commands * `docker image ls` - list all images available on system * `docker container ls` - list all container on system * `docker image prune -a` - remove all images * `docker container prune` - remove all containers",
   "main": "server.js",
   "scripts": {

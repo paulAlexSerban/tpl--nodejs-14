@@ -1,4 +1,5 @@
 # NodeJS v14 Template
+> Version 1.0.0
 
 ## Docker commands
 ### Useful commands
