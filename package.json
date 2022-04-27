@@ -4,7 +4,7 @@
   "description": "> Version 1.0.0",
   "main": "index.js",
   "scripts": {
-    "build:image": "docker build --file app/nodejs.Dockerfile ./app --tag $(grep DOCKER_IMAGE_NAME .env | cut -d '=' -f2)",
+    "build:image": "docker build --file app/app.Dockerfile ./app --tag $(grep DOCKER_IMAGE_NAME .env | cut -d '=' -f2)",
     "build:compose": "docker-compose --env-file .env up --build --detach",
     "stop:compose": "docker-compose down --volumes --rmi all"
   },
