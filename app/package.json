@@ -1,25 +1,17 @@
 {
-  "name": "template-nodejs-14",
-  "version": "1.0.0",
-  "description": "## Docker useful commands * `docker image ls` - list all images available on system * `docker container ls` - list all container on system * `docker image prune -a` - remove all images * `docker container prune` - remove all containers",
-  "main": "server.js",
+  "name": "api",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/paulAlexSerban/template-nodejs-14.git"
-  },
-  "author": "Paul Serban",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/paulAlexSerban/template-nodejs-14/issues"
-  },
-  "homepage": "https://github.com/paulAlexSerban/template-nodejs-14#readme",
-  "dependencies": {
-    "express": "^4.17.3"
+    "start": "node ./bin/www"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
   }
 }
